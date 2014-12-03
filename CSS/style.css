@@ -1,0 +1,88 @@
+.container {
+
+	margin: 0 auto;
+	margin-top: 80px;
+
+		width: 350px;
+		height: 440px;
+
+
+	box-shadow: 2px 2px 12px 0px black;
+
+	background: url(../template.png) no-repeat center;
+	background-size: 100%;
+
+}
+
+
+.button {
+
+	display: block;
+	position: relative;
+
+		margin: 0 auto;
+
+			height: 100px;
+			width: 100px;
+			top: 10px;
+
+}
+
+.mainbutton {
+
+	height: inherit;
+	width: inherit;
+	border-radius: 25px;
+
+}
+
+
+.text {
+
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 120px;	
+
+		color:white;
+		text-align: justify;
+		text-shadow: 1px 1px 2px #004F9D;
+
+}
+
+
+.FBbutton {
+
+	display: block;
+	position: relative;
+
+		margin: 0 auto;
+		height: 30px;
+		width: 150px;
+
+}
+
+.socialbutton {
+
+	height: inherit;
+	width: inherit;
+
+	background: url(../FBbutton.png) no-repeat center;
+	background-size: 100%;
+		
+		box-shadow: 1px 1px 3px 1px black;
+
+}
+
+
+
+.socialbutton:hover {
+
+	box-shadow: 2px 2px 8px 1px black;
+
+	transition: box-shadow         0.3s;
+	-o-transition: box-shadow 	   0.3s;
+	-ms-transition: box-shadow     0.3s;
+	-moz-transition: box-shadow    0.3s;
+	-webkit-transition: box-shadow 0.3s;
+
+}
